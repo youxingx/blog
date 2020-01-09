@@ -11,6 +11,7 @@ import (
 )
 
 func init() {
+	fmt.Println("connect mysql")
 	dbhost := beego.AppConfig.String("dbhost")
 	dbport := beego.AppConfig.String("dbport")
 	dbuser := beego.AppConfig.String("dbuser")
